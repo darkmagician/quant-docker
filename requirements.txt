@@ -1,0 +1,6 @@
+selenium
+Pillow
+pytesseract
+sqlalchemy
+tabulate
+requests
