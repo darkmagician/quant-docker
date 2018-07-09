@@ -21,8 +21,8 @@ RUN apt-get clean
 ENV DISPLAY=:99
 
 # pip install
-Add requirements.txt /tmp/
-RUN RUN TABULATE_INSTALL=lib-only;pip install -r /tmp/requirements.txt
+ADD requirements.txt /tmp/
+RUN TABULATE_INSTALL=lib-only;pip install -r /tmp/requirements.txt
 
 
 ENV PYTHONIOENCODING=UTF-8
